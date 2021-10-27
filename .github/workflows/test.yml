@@ -9,7 +9,7 @@ name: Ruby
 
 on:
   pull_request:
-    branches: [ feature, main ]
+    branches: [ main ]
 
 jobs:
   test:
