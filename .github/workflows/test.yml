@@ -8,7 +8,8 @@
 name: Ruby
 
 on:
-  pull_request
+  pull_request:
+    branches: [ feature, main ]
 
 jobs:
   test:
